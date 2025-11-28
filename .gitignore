@@ -1,0 +1,55 @@
+# --- Python cache ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Jupyter Notebook checkpoints ---
+.ipynb_checkpoints/
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- IDE/Editor files ---
+.vscode/
+.idea/
+*.swp
+
+# --- Data files (local only) ---
+*.csv
+*.parquet
+*.feather
+*.tsv
+*.xlsx
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# --- Large capture / PCAP traces ---
+*.pcap
+*.pcapng
+
+# --- Model artifacts ---
+models/
+*.joblib
+*.h5
+*.pt
+*.onnx
+
+# --- Logs / temp ---
+logs/
+*.log
+*.tmp
+
+# --- Results ---
+outputs/
+plots/
+figures/
+
+# --- OS trash ---
+.DS_Store
+Thumbs.db
