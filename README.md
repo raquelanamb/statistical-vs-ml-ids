@@ -1,12 +1,10 @@
 # 🚨 Statistical vs ML Intrusion Detection (CIC-IDS 2017)
 
-Side-by-side notebooks that build a simple statistical detector (robust z-score) and an Isolation Forest on two CIC-IDS 2017 traces: the Friday DDoS and Wednesday DoS variants. Both pipelines keep time order, fit only on benign windows to avoid leakage, and compare metrics/visuals/alerts on a held-out tail.
+Side-by-side notebooks that build a simple statistical detector (robust z-score) and an Isolation Forest on two CIC-IDS 2017 traces: the Wednesday DoS variants and Friday DDoS. Both pipelines keep time order, fit only on benign windows to avoid leakage, and compare metrics/visuals/alerts on a held-out tail.
 
 ---
 
 ## Dataset
-
-We use the **Wednesday working hours DoS variant** portion of CIC-IDS 2017:
 
 * Format: flow-level CSV exported from PCAP
 * Traffic includes multiple application-layer DoS attacks
