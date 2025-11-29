@@ -75,7 +75,7 @@ This produces a robust window-level ground truth while avoiding individual miscl
 
 * Unsupervised tree-based anomaly detector
 * Trained **only on benign windows**
-* `contamination = 0.02`
+* `contamination = 0.02` for DoS variants and `contamination = 0.05` for DDoS
 * Produces per-window anomaly predictions
 
 Zero label leakage: labels are used **only for evaluation**.
@@ -99,7 +99,7 @@ Metrics:
 
 ---
 
-## 👀 Visualization
+## Visualization
 
 Plots show:
 
