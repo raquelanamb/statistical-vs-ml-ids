@@ -18,8 +18,8 @@ No label information is used during training for anomaly detectors.
 ## Repository Structure
 
 ```
-├── wednesday_dos_variants.ipynb   # main notebook 2
-├── friday_ddos.ipynb              # main notebook 1
+├── wednesday_dos_variants.ipynb   # main notebook 1
+├── friday_ddos.ipynb              # main notebook 2
 ├── requirements.txt
 ├── README.md
 ```
