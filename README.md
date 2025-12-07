@@ -129,7 +129,7 @@ Useful for live demonstration or SOC console simulation.
 
 ## Results (high-level)
 
-* **Z-score** Z-score outperforms Isolation Forest on DoS because handshake imbalance creates statistically extreme deviations in a few windows.
+* **Z-score** outperforms Isolation Forest on DoS because handshake imbalance creates statistically extreme deviations in a few windows.
 * LOIC produces extremely uniform, repeated bursts, which **Isolation Forest** isolates very easily because the high-dimensional pattern is consistent and far from benign clusters.
 * Both models can miss low-rate attacks that change only a few features slightly
 
