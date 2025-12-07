@@ -129,11 +129,11 @@ Useful for live demonstration or SOC console simulation.
 
 ## Results (high-level)
 
-* **Z-score** excels at sharp traffic bursts
-* **Isolation Forest** captures broader irregularities and multi-feature deviations
-* Both models can miss low-and-slow attacks when features are volume-centric
+* **Z-score** Z-score outperforms Isolation Forest on DoS because handshake imbalance creates statistically extreme deviations in a few windows.
+* LOIC produces extremely uniform, repeated bursts, which **Isolation Forest** isolates very easily because the high-dimensional pattern is consistent and far from benign clusters.
+* Both models can miss low-rate attacks that change only a few features slightly
 
-The notebook is designed for **interpretability > accuracy** — methods are transparent, reproducible, and easy to extend.
+The notebook is designed for **interpretability > accuracy** - methods are transparent, reproducible, and easy to extend.
 
 ---
 
