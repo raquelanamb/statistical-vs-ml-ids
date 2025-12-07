@@ -131,7 +131,7 @@ Useful for live demonstration or SOC console simulation.
 
 * **Z-score** outperforms Isolation Forest on DoS because handshake imbalance creates statistically extreme deviations in a few windows.
 * LOIC produces extremely uniform, repeated bursts, which **Isolation Forest** isolates very easily because the high-dimensional pattern is consistent and far from benign clusters.
-* Both models can miss low-rate attacks that change only a few features slightly
+* Both models can miss low-rate attacks that change only a few features slightly.
 
 The notebook is designed for **interpretability > accuracy** - methods are transparent, reproducible, and easy to extend.
 
