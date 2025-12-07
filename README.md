@@ -41,7 +41,7 @@ We focus on DoS-relevant indicators:
 
 * **Volume**: packets, bytes
 * **Payload structure**: packet length mean/std/var, min/max
-* **Handshake manipulation**: SYN, ACK, RST, FIN, PSH, ECE counts
+* **Handshake manipulation**: SYN, ACK, RST, FIN, PSH flag counts
 * **Directionality**: subflow forward/backward packets
 
 These capture low-rate connection exhaustion (slow HTTP) and high-volume floods.
